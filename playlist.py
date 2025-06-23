@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QComboBox, QListW
 from PyQt5.QtCore import Qt, pyqtSignal
 from mutagen import File
 import os
-from PyQt5.QtGui import QPixmap, QIcon
+from PyQt5.QtGui import QPixmap
 
 class SongItemWidget(QWidget):
     def __init__(self, file_path, parent=None):

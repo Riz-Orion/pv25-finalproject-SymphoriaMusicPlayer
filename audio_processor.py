@@ -1,5 +1,4 @@
 import numpy as np
-from scipy.fft import fft
 from scipy import signal
 import librosa
 import sounddevice as sd

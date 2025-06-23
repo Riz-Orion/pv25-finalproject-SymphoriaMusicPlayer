@@ -30,6 +30,7 @@ class MusicPlayer(QMainWindow):
     def init_ui(self):
         self.setWindowTitle("Symphoria")
         self.setGeometry(100, 100, 1200, 900)
+        self.setWindowIcon(QIcon("asset/app_icon.png"))
 
         self.create_status_bar()
         
